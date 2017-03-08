@@ -4,8 +4,18 @@ package Game;
  */
 import java.util.ArrayList;
 public class DotCom {
+
+    private  String name;
     private ArrayList<String> locationCells;
-    // int numberOfHits = 0;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public void setLocationCells(ArrayList<String> loc) {
         locationCells = loc;
     }
@@ -17,11 +27,12 @@ public class DotCom {
             locationCells.remove(index);
             if (locationCells.isEmpty()) {
                 result = "kill";
+                System.out.println("Ouch! You sunk "+ name + " :(");
             } else {
                 result = "hit";
             }
         }
-        System.out.println(result);
+        // System.out.println(result);
         return  result;
     }
 }
