@@ -18,5 +18,6 @@ public class PracticeDemo1 {
         }
         System.out.println("加分后成绩：" + score);
         System.out.println("总共加了"+ count +"次");
+
     }
 }
