@@ -1,0 +1,17 @@
+package com.muhlenxi;
+
+/**
+ * Created by yangxi on 2017/5/12.
+ */
+public class Course {
+    public String id;
+    public String name;
+
+    public Course(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public Course() {
+    }
+}
