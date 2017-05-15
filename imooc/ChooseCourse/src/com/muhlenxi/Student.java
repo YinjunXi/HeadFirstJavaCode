@@ -9,12 +9,15 @@ import java.util.Set;
 public class Student {
     public String name;
     public String id;
-    public Set courseSet;
+    public Set<Course> courses;
 
     public Student(String name, String id) {
         this.name = name;
         this.id = id;
+        this.courses = new HashSet<Course>();
+    }
 
-        this.courseSet = new HashSet();
+    public Student() {
+        this.courses = new HashSet<Course>();
     }
 }

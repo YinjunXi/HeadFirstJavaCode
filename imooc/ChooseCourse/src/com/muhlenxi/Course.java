@@ -2,6 +2,7 @@ package com.muhlenxi;
 
 /**
  * Created by yangxi on 2017/5/12.
+ * 课程类
  */
 public class Course {
     public String id;
