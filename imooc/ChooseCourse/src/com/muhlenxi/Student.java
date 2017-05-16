@@ -20,4 +20,13 @@ public class Student {
     public Student() {
         this.courses = new HashSet<Course>();
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                ", courses=" + courses +
+                '}';
+    }
 }
