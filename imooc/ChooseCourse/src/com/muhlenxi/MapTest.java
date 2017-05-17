@@ -1,6 +1,8 @@
 package com.muhlenxi;
 
+import java.security.KeyStore;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -48,10 +50,39 @@ public class MapTest {
 
     }
 
+    public void testRemove(){
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("请输入要删除的学生ID：");
+            String id = scanner.next();
+            Student stu = students.get(id);
+            if (stu == null) {
+                System.out.println("该ID不存在");
+                continue;
+            } else  {
+                students.remove(id);
+                System.out.println("已删除该学生：" + stu);
+                break;
+            }
+        }
+    }
+
+    // entrySet 遍历 Map
+    public void testEntrySet() {
+        Set<Map.Entry<String,Student>> entrySet = students.entrySet();
+        for (Map.Entry<String, Student> entry :
+                entrySet) {
+            System.out.println("取得键：" + entry.getKey());
+            System.out.println("对应的值为：" + entry.getValue());
+        }
+    }
+
     public static void main(String[] args) {
         MapTest mt = new MapTest();
         mt.testPut();
         mt.testKeySet();
+        mt.testRemove();
+        mt.testEntrySet();
 
     }
 }
