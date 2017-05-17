@@ -77,11 +77,32 @@ public class MapTest {
         }
     }
 
+    public  void testModify() {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("请输入要修改的学生ID：");
+            String id = scanner.next();
+            Student student = students.get(id);
+            if (student == null) {
+                System.out.println("该ID不存在！");
+                continue;
+            }
+            System.out.println("要修改的学生是：" + student);
+            System.out.println("请输入修改后的姓名：");
+            String name = scanner.next();
+            student = new Student(name,id);
+            students.put(id,student);
+            System.out.println("修改成功");
+            break;
+        }
+    }
+
     public static void main(String[] args) {
         MapTest mt = new MapTest();
         mt.testPut();
         mt.testKeySet();
-        mt.testRemove();
+        // mt.testRemove();
+        mt.testModify();
         mt.testEntrySet();
 
     }
