@@ -19,8 +19,8 @@
       <file leaf-file-name="MapTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/MapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,9 +50,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/muhlenxi/SetTest.java" />
         <option value="$PROJECT_DIR$/src/com/muhlenxi/Course.java" />
         <option value="$PROJECT_DIR$/src/com/muhlenxi/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/com/muhlenxi/SetTest.java" />
         <option value="$PROJECT_DIR$/src/com/muhlenxi/Student.java" />
         <option value="$PROJECT_DIR$/src/com/muhlenxi/MapTest.java" />
       </list>
@@ -413,8 +413,8 @@
     <recent_temporary>
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.MapTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SetTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ListTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ListTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -452,12 +452,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50333333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22647059" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31323528" sideWeight="0.49666667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -483,7 +483,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -505,6 +507,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+          <folding>
+            <marker date="1495117016000" expanded="true" signature="44:86" ph="/**...*/" />
+            <marker date="1495117016000" expanded="false" signature="182:193" ph=" { " />
+            <marker date="1495117016000" expanded="false" signature="237:243" ph=" }" />
+            <marker date="1495117016000" expanded="true" signature="271:695" ph="{...}" />
+            <marker date="1495117016000" expanded="true" signature="727:914" ph="{...}" />
+            <marker date="1495117016000" expanded="true" signature="961:1155" ph="{...}" />
+            <marker date="1495117016000" expanded="true" signature="1199:2010" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -520,44 +531,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="68" column="6" lean-forward="false" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1495117629000" expanded="true" signature="44:94" ph="/**...*/" />
+            <marker date="1495117629000" expanded="false" signature="193:204" ph=" { " />
+            <marker date="1495117629000" expanded="false" signature="250:256" ph=" }" />
+            <marker date="1495117629000" expanded="true" signature="284:1395" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="1423:1683" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="1736:1979" ph="{...}" />
+            <marker date="1495117629000" expanded="false" signature="2009:2020" ph=" { " />
+            <marker date="1495117629000" expanded="false" signature="2063:2069" ph=" }" />
+            <marker date="1495117629000" expanded="true" signature="2100:2195" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="2228:2902" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="2230:2516" ph="//..." />
+            <marker date="1495117629000" expanded="true" signature="2947:3164" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="3022:3100" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="50" column="43" lean-forward="false" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        <state relative-caret-position="879">
+          <caret line="63" column="68" lean-forward="false" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
+          <folding>
+            <marker date="1495117016000" expanded="true" signature="44:86" ph="/**...*/" />
+            <marker date="1495117016000" expanded="false" signature="182:193" ph=" { " />
+            <marker date="1495117016000" expanded="false" signature="237:243" ph=" }" />
+            <marker date="1495117016000" expanded="true" signature="271:695" ph="{...}" />
+            <marker date="1495117016000" expanded="true" signature="727:914" ph="{...}" />
+            <marker date="1495117016000" expanded="true" signature="961:1155" ph="{...}" />
+            <marker date="1495117016000" expanded="true" signature="1199:2010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <marker date="1495117127000" expanded="true" signature="23:72" ph="/**...*/" />
+            <marker date="1495117127000" expanded="true" signature="184:239" ph="{...}" />
+            <marker date="1495117127000" expanded="true" signature="261:268" ph="{...}" />
+            <marker date="1495117127000" expanded="true" signature="313:448" ph="{...}" />
+            <marker date="1495117127000" expanded="true" signature="502:879" ph="{...}" />
+            <marker date="1495117127000" expanded="true" signature="920:931" ph=" { " />
+            <marker date="1495117127000" expanded="true" signature="954:960" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="93" column="8" lean-forward="false" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+          <folding>
+            <marker date="1495117629000" expanded="true" signature="44:94" ph="/**...*/" />
+            <marker date="1495117629000" expanded="false" signature="193:204" ph=" { " />
+            <marker date="1495117629000" expanded="false" signature="250:256" ph=" }" />
+            <marker date="1495117629000" expanded="true" signature="284:1395" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="1423:1683" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="1736:1979" ph="{...}" />
+            <marker date="1495117629000" expanded="false" signature="2009:2020" ph=" { " />
+            <marker date="1495117629000" expanded="false" signature="2063:2069" ph=" }" />
+            <marker date="1495117629000" expanded="true" signature="2100:2195" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="2228:2902" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="2230:2516" ph="//..." />
+            <marker date="1495117629000" expanded="true" signature="2947:3164" ph="{...}" />
+            <marker date="1495117629000" expanded="true" signature="3022:3100" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="-60">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <marker date="1495119131000" expanded="false" signature="30:70" ph="..." />
+            <marker date="1495119131000" expanded="true" signature="72:114" ph="/**...*/" />
+            <marker date="1495119131000" expanded="true" signature="260:361" ph="{...}" />
+            <marker date="1495119131000" expanded="false" signature="383:394" ph=" { " />
+            <marker date="1495119131000" expanded="false" signature="431:437" ph=" }" />
+            <marker date="1495119131000" expanded="true" signature="482:659" ph="{...}" />
+            <marker date="1495119131000" expanded="true" signature="711:904" ph="{...}" />
+            <marker date="1495119131000" expanded="true" signature="945:956" ph=" { " />
+            <marker date="1495119131000" expanded="true" signature="979:985" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

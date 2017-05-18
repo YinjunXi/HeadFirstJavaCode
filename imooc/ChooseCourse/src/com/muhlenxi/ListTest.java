@@ -1,9 +1,6 @@
 package com.muhlenxi;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by yangxi on 2017/5/12.
@@ -70,13 +67,31 @@ public class ListTest {
         courseToSelect.remove(c1);
     }
 
+    public void testContains() {
+//        Course course = courseToSelect.get(0);
+//        System.out.println("是否包含 course" + course + ":" + courseToSelect.contains(course));
+//
+//        Course course1 = new Course("2","C语言");
+//        System.out.println("是否包含 course1" + course1 + courseToSelect.contains(course1));
+
+        System.out.println("请输入要查询的课程的名字");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.next();
+        Course course = new Course();
+        course.name = name;
+        System.out.println(course);
+        System.out.println("是否包含该课程：" + courseToSelect.contains(course));
+        System.out.println("index:" + courseToSelect.indexOf(course));
+    }
+
     public static void main(String[] args) {
 
         ListTest test = new ListTest();
         test.listAdd();
-        test.testGet();
-        test.testModify();
-        test.testRemove();
+        // test.testGet();
+        // test.testModify();
+        // test.testRemove();
         test.testIterator();
+        test.testContains();
     }
 }

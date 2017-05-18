@@ -97,13 +97,30 @@ public class MapTest {
         }
     }
 
+    public void testContainsKeyOrValue(){
+        System.out.println("请输出要查询的ID");
+        Scanner scanner = new Scanner(System.in);
+        String id = scanner.next();
+        System.out.println("是否包含该学生：" + students.containsKey(id));
+
+        System.out.println("请输入要查询的学生姓名：");
+        String name = scanner.next();
+        Student stu = new Student(name,null);
+        if (students.containsValue(stu)) {
+            System.out.println("该学生姓名为：" + name);
+        } else {
+            System.out.println("该学生不存在");
+        }
+    }
+
     public static void main(String[] args) {
         MapTest mt = new MapTest();
         mt.testPut();
         mt.testKeySet();
         // mt.testRemove();
-        mt.testModify();
-        mt.testEntrySet();
+        // mt.testModify();
+        // mt.testEntrySet();
+        mt.testContainsKeyOrValue();
 
     }
 }

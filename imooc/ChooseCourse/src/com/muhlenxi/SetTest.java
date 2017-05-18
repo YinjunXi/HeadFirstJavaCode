@@ -57,6 +57,12 @@ public class SetTest {
             }
         }
 
+        System.out.println("请输入要查询课程名字：");
+        String name = scanner.next();
+        Course course = new Course();
+        course.name = name;
+        System.out.println("是否包含：" + student.courses.contains(course));
+
         setTest.testforeach(student);
 
     }

@@ -29,4 +29,19 @@ public class Student {
                 ", courses=" + courses +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Student student = (Student) o;
+
+        return name.equals(student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
 }

@@ -15,4 +15,34 @@ public class Course {
 
     public Course() {
     }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null)
+            return  false;
+        if (obj == this)
+            return true;
+        if (!(obj instanceof Course))
+            return false;
+        Course course = (Course) obj;
+        if (course.name == null)
+            return false;
+        if (this.name.equals(course.name))
+            return true;
+        else
+            return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
 }
