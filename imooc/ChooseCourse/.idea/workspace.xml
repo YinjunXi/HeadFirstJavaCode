@@ -16,13 +16,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MapTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/MapTest.java">
+      <file leaf-file-name="CollectionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/CollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+            <state relative-caret-position="219">
+              <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#282#291#0" expanded="true" />
+                <element signature="e#960#968#0" expanded="true" />
+                <element signature="e#1509#1517#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,6 +58,7 @@
         <option value="$PROJECT_DIR$/src/com/muhlenxi/ListTest.java" />
         <option value="$PROJECT_DIR$/src/com/muhlenxi/Student.java" />
         <option value="$PROJECT_DIR$/src/com/muhlenxi/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/com/muhlenxi/CollectionTest.java" />
       </list>
     </option>
   </component>
@@ -65,8 +69,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="23" />
+    <option name="x" value="98" />
+    <option name="y" value="99" />
     <option name="width" value="1242" />
     <option name="height" value="777" />
   </component>
@@ -85,6 +89,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -117,9 +124,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,6 +131,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/muhlenxi" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapTest">
+  <component name="RunManager" selected="Application.CollectionTest">
     <configuration default="false" name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -189,6 +198,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.muhlenxi.MapTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ChooseCourse" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.muhlenxi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.muhlenxi.CollectionTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -286,6 +315,136 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -300,6 +459,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -344,6 +512,22 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -377,6 +561,12 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -405,16 +595,40 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.ListTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.SetTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.MapTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CollectionTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.MapTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.CollectionTest" />
         <item index="1" class="java.lang.String" itemvalue="Application.ListTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SetTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MapTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -435,14 +649,16 @@
       <workItem from="1494832003947" duration="6818000" />
       <workItem from="1494842520446" duration="1290000" />
       <workItem from="1495013199740" duration="1077000" />
+      <workItem from="1495176190037" duration="784000" />
+      <workItem from="1495177295386" duration="2062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10064000" />
+    <option name="totallyTimeSpent" value="12910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1242" height="777" extended-state="6" />
+    <frame x="98" y="99" width="1242" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,24 +670,24 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50333333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31323528" sideWeight="0.49666667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32859176" sideWeight="0.49666667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -493,12 +709,57 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2624">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#291#0" expanded="true" />
+            <element signature="e#960#968#0" expanded="true" />
+            <element signature="e#1509#1517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4387">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding>
+            <marker date="1495176118000" expanded="true" signature="30:149" ph="..." />
+            <marker date="1495176118000" expanded="true" signature="151:195" ph="/**...*/" />
+            <marker date="1495176118000" expanded="false" signature="285:296" ph=" { " />
+            <marker date="1495176118000" expanded="false" signature="342:348" ph=" }" />
+            <marker date="1495176118000" expanded="true" signature="376:1002" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1033:1345" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1375:1849" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1905:2187" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2219:2850" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2892:3384" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="3429:3643" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="3522:3599" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2211">
           <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1495176118000" expanded="true" signature="30:149" ph="..." />
+            <marker date="1495176118000" expanded="true" signature="151:195" ph="/**...*/" />
+            <marker date="1495176118000" expanded="false" signature="285:296" ph=" { " />
+            <marker date="1495176118000" expanded="false" signature="342:348" ph=" }" />
+            <marker date="1495176118000" expanded="true" signature="376:1002" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1033:1345" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1375:1849" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1905:2187" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2219:2850" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2892:3384" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="3429:3643" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="3522:3599" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -507,15 +768,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-          <folding>
-            <marker date="1495117016000" expanded="true" signature="44:86" ph="/**...*/" />
-            <marker date="1495117016000" expanded="false" signature="182:193" ph=" { " />
-            <marker date="1495117016000" expanded="false" signature="237:243" ph=" }" />
-            <marker date="1495117016000" expanded="true" signature="271:695" ph="{...}" />
-            <marker date="1495117016000" expanded="true" signature="727:914" ph="{...}" />
-            <marker date="1495117016000" expanded="true" signature="961:1155" ph="{...}" />
-            <marker date="1495117016000" expanded="true" signature="1199:2010" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -532,19 +785,19 @@
         <state relative-caret-position="205">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
-            <marker date="1495117629000" expanded="true" signature="44:94" ph="/**...*/" />
-            <marker date="1495117629000" expanded="false" signature="193:204" ph=" { " />
-            <marker date="1495117629000" expanded="false" signature="250:256" ph=" }" />
-            <marker date="1495117629000" expanded="true" signature="284:1395" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="1423:1683" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="1736:1979" ph="{...}" />
-            <marker date="1495117629000" expanded="false" signature="2009:2020" ph=" { " />
-            <marker date="1495117629000" expanded="false" signature="2063:2069" ph=" }" />
-            <marker date="1495117629000" expanded="true" signature="2100:2195" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="2228:2902" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="2230:2516" ph="//..." />
-            <marker date="1495117629000" expanded="true" signature="2947:3164" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="3022:3100" ph="//..." />
+            <marker date="1495176118000" expanded="true" signature="44:94" ph="/**...*/" />
+            <marker date="1495176118000" expanded="false" signature="193:204" ph=" { " />
+            <marker date="1495176118000" expanded="false" signature="250:256" ph=" }" />
+            <marker date="1495176118000" expanded="true" signature="284:1395" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1423:1683" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1736:1979" ph="{...}" />
+            <marker date="1495176118000" expanded="false" signature="2009:2020" ph=" { " />
+            <marker date="1495176118000" expanded="false" signature="2063:2069" ph=" }" />
+            <marker date="1495176118000" expanded="true" signature="2100:2195" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2228:2902" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2230:2516" ph="//..." />
+            <marker date="1495176118000" expanded="true" signature="2947:3164" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="3022:3100" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -553,15 +806,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="879">
           <caret line="63" column="68" lean-forward="false" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
-          <folding>
-            <marker date="1495117016000" expanded="true" signature="44:86" ph="/**...*/" />
-            <marker date="1495117016000" expanded="false" signature="182:193" ph=" { " />
-            <marker date="1495117016000" expanded="false" signature="237:243" ph=" }" />
-            <marker date="1495117016000" expanded="true" signature="271:695" ph="{...}" />
-            <marker date="1495117016000" expanded="true" signature="727:914" ph="{...}" />
-            <marker date="1495117016000" expanded="true" signature="961:1155" ph="{...}" />
-            <marker date="1495117016000" expanded="true" signature="1199:2010" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -569,37 +814,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <marker date="1495117127000" expanded="true" signature="23:72" ph="/**...*/" />
-            <marker date="1495117127000" expanded="true" signature="184:239" ph="{...}" />
-            <marker date="1495117127000" expanded="true" signature="261:268" ph="{...}" />
-            <marker date="1495117127000" expanded="true" signature="313:448" ph="{...}" />
-            <marker date="1495117127000" expanded="true" signature="502:879" ph="{...}" />
-            <marker date="1495117127000" expanded="true" signature="920:931" ph=" { " />
-            <marker date="1495117127000" expanded="true" signature="954:960" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="93" column="8" lean-forward="false" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-          <folding>
-            <marker date="1495117629000" expanded="true" signature="44:94" ph="/**...*/" />
-            <marker date="1495117629000" expanded="false" signature="193:204" ph=" { " />
-            <marker date="1495117629000" expanded="false" signature="250:256" ph=" }" />
-            <marker date="1495117629000" expanded="true" signature="284:1395" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="1423:1683" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="1736:1979" ph="{...}" />
-            <marker date="1495117629000" expanded="false" signature="2009:2020" ph=" { " />
-            <marker date="1495117629000" expanded="false" signature="2063:2069" ph=" }" />
-            <marker date="1495117629000" expanded="true" signature="2100:2195" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="2228:2902" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="2230:2516" ph="//..." />
-            <marker date="1495117629000" expanded="true" signature="2947:3164" ph="{...}" />
-            <marker date="1495117629000" expanded="true" signature="3022:3100" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -607,26 +822,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
           <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <marker date="1495119131000" expanded="false" signature="30:70" ph="..." />
-            <marker date="1495119131000" expanded="true" signature="72:114" ph="/**...*/" />
-            <marker date="1495119131000" expanded="true" signature="260:361" ph="{...}" />
-            <marker date="1495119131000" expanded="false" signature="383:394" ph=" { " />
-            <marker date="1495119131000" expanded="false" signature="431:437" ph=" }" />
-            <marker date="1495119131000" expanded="true" signature="482:659" ph="{...}" />
-            <marker date="1495119131000" expanded="true" signature="711:904" ph="{...}" />
-            <marker date="1495119131000" expanded="true" signature="945:956" ph=" { " />
-            <marker date="1495119131000" expanded="true" signature="979:985" ph=" }" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <caret line="113" column="5" lean-forward="false" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding>
+            <marker date="1495176118000" expanded="true" signature="30:149" ph="..." />
+            <marker date="1495176118000" expanded="true" signature="151:195" ph="/**...*/" />
+            <marker date="1495176118000" expanded="false" signature="285:296" ph=" { " />
+            <marker date="1495176118000" expanded="false" signature="342:348" ph=" }" />
+            <marker date="1495176118000" expanded="true" signature="376:1002" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1033:1345" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1375:1849" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1905:2187" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2219:2850" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2892:3384" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="3429:3643" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="3522:3599" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <marker date="1495176118000" expanded="true" signature="44:94" ph="/**...*/" />
+            <marker date="1495176118000" expanded="false" signature="193:204" ph=" { " />
+            <marker date="1495176118000" expanded="false" signature="250:256" ph=" }" />
+            <marker date="1495176118000" expanded="true" signature="284:1395" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1423:1683" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="1736:1979" ph="{...}" />
+            <marker date="1495176118000" expanded="false" signature="2009:2020" ph=" { " />
+            <marker date="1495176118000" expanded="false" signature="2063:2069" ph=" }" />
+            <marker date="1495176118000" expanded="true" signature="2100:2195" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2228:2902" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="2230:2516" ph="//..." />
+            <marker date="1495176118000" expanded="true" signature="2947:3164" ph="{...}" />
+            <marker date="1495176118000" expanded="true" signature="3022:3100" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#282#291#0" expanded="true" />
+            <element signature="e#960#968#0" expanded="true" />
+            <element signature="e#1509#1517#0" expanded="true" />
           </folding>
         </state>
       </provider>
