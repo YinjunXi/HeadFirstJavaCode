@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by yangxi on 2017/5/12.
  */
-public class Student {
+public class Student implements Comparable<Student>{
     public String name;
     public String id;
     public Set<Course> courses;
@@ -43,5 +43,10 @@ public class Student {
     @Override
     public int hashCode() {
         return name.hashCode();
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return this.id.compareTo(o.id);
     }
 }

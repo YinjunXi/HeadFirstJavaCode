@@ -94,10 +94,38 @@ public class CollectionTest {
         }
     }
 
+    public void testSortStudent(){
+        List<Student> studentList = new ArrayList<Student>();
+        Random random = new Random();
+        studentList.add(new Student("Jack",random.nextInt(1000) + ""));
+        studentList.add(new Student("Lucy",random.nextInt(1000) + ""));
+        studentList.add(new Student("Bob",random.nextInt(1000) + ""));
+        System.out.println("--- 排序前 ---");
+        for (Student stu:studentList
+             ) {
+            System.out.println(stu);
+        }
+        Collections.sort(studentList);
+        System.out.println("--- 排序后 ---");
+        for (Student stu:studentList
+                ) {
+            System.out.println(stu);
+        }
+
+        Collections.sort(studentList,new StudentComparator());
+        System.out.println("--- 根据名字排序后 ---");
+        for (Student stu:studentList
+                ) {
+            System.out.println(stu);
+        }
+
+    }
+
     public static void main(String[] args) {
         CollectionTest ct = new CollectionTest();
         // ct.testIntegerSort();
-        ct.testStringSort2();
+        // ct.testStringSort2();
+        ct.testSortStudent();
     }
 
 }
