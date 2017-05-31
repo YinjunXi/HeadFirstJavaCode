@@ -22,14 +22,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FileOutDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/FileOutDemo.java">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/serializable/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="700">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,6 +61,8 @@
         <option value="$PROJECT_DIR$/src/com/muhlenxi/InputStreamReaderDemo.java" />
         <option value="$PROJECT_DIR$/src/com/muhlenxi/FileReaderDemo.java" />
         <option value="$PROJECT_DIR$/src/com/muhlenxi/BufferedReaderDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/serializable/SerialDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/serializable/Student.java" />
       </list>
     </option>
   </component>
@@ -73,9 +73,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="516" />
+    <option name="x" value="260" />
     <option name="y" value="23" />
-    <option name="width" value="1003" />
+    <option name="width" value="1059" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -93,26 +93,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extensions" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.intellij.database" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,7 +121,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="muhlenxi" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serializable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IODemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IODemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -155,6 +159,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.intellij.database" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -179,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BufferedReaderDemo">
+  <component name="RunManager" selected="Application.SerialDemo">
     <configuration default="false" name="IOUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -188,26 +210,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.muhlenxi.IOUtilTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IODemo" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="DataInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.muhlenxi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.muhlenxi.DataInputStreamDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -268,6 +270,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.muhlenxi.BufferedReaderDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IODemo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SerialDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.serializable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.serializable.SerialDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -669,18 +691,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.IOUtilTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DataInputStreamDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InputStreamReaderDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FileReaderDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BufferedReaderDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InputStreamReaderDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FileReaderDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BufferedReaderDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SerialDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BufferedReaderDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FileReaderDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.InputStreamReaderDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.IOUtilTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DataInputStreamDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SerialDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BufferedReaderDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FileReaderDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InputStreamReaderDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.IOUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -700,15 +722,16 @@
       <workItem from="1495594136899" duration="4405000" />
       <workItem from="1495694454556" duration="5629000" />
       <workItem from="1495763040512" duration="7189000" />
-      <workItem from="1495847621531" duration="5807000" />
+      <workItem from="1495847621531" duration="5956000" />
+      <workItem from="1496216204816" duration="3223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23030000" />
+    <option name="totallyTimeSpent" value="26402000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="516" y="23" width="1003" height="1057" extended-state="1" />
+    <frame x="260" y="23" width="1059" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -721,12 +744,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35300103" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35300103" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3558793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24188791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907662" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24950884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -759,17 +782,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/FileOutDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1495764465000" expanded="true" signature="30:83" ph="..." />
+            <marker date="1495764465000" expanded="true" signature="85:127" ph="/**...*/" />
+            <marker date="1495764465000" expanded="true" signature="216:686" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/IOUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2091">
           <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-          <folding>
-            <marker date="1495848684000" expanded="true" signature="30:71" ph="..." />
-            <marker date="1495848684000" expanded="true" signature="73:115" ph="/**...*/" />
-            <marker date="1495848684000" expanded="true" signature="184:1620" ph="{...}" />
-            <marker date="1495848684000" expanded="true" signature="1198:1256" ph="//..." />
-            <marker date="1495848684000" expanded="true" signature="1332:1410" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,18 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1927">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <marker date="1495771149000" expanded="true" signature="42:84" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="111:174" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="243:694" ph="{...}" />
-            <marker date="1495771149000" expanded="true" signature="775:1288" ph="{...}" />
-            <marker date="1495771149000" expanded="true" signature="1294:1387" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="1459:2074" ph="{...}" />
-            <marker date="1495771149000" expanded="true" signature="2080:2176" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="2252:2912" ph="{...}" />
-            <marker date="1495771149000" expanded="true" signature="2918:3008" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="3086:3660" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,11 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <marker date="1495695342000" expanded="true" signature="30:71" ph="..." />
-            <marker date="1495695342000" expanded="true" signature="73:115" ph="/**...*/" />
-            <marker date="1495695342000" expanded="true" signature="205:286" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,12 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-891">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1495765011000" expanded="true" signature="30:71" ph="..." />
-            <marker date="1495765011000" expanded="true" signature="73:143" ph="/**...*/" />
-            <marker date="1495765011000" expanded="true" signature="173:258" ph="/**...*/" />
-            <marker date="1495765011000" expanded="true" signature="327:920" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,18 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2745">
           <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding>
-            <marker date="1495771149000" expanded="true" signature="42:84" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="111:174" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="243:694" ph="{...}" />
-            <marker date="1495771149000" expanded="true" signature="775:1288" ph="{...}" />
-            <marker date="1495771149000" expanded="true" signature="1294:1387" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="1459:2074" ph="{...}" />
-            <marker date="1495771149000" expanded="true" signature="2080:2176" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="2252:2912" ph="{...}" />
-            <marker date="1495771149000" expanded="true" signature="2918:3008" ph="/**...*/" />
-            <marker date="1495771149000" expanded="true" signature="3086:3660" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,13 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="791">
           <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <marker date="1495848684000" expanded="true" signature="30:71" ph="..." />
-            <marker date="1495848684000" expanded="true" signature="73:115" ph="/**...*/" />
-            <marker date="1495848684000" expanded="true" signature="184:1620" ph="{...}" />
-            <marker date="1495848684000" expanded="true" signature="1198:1256" ph="//..." />
-            <marker date="1495848684000" expanded="true" signature="1332:1410" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,10 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <marker date="1495849984000" expanded="true" signature="42:84" ph="/**...*/" />
-            <marker date="1495849984000" expanded="true" signature="183:760" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,11 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <marker date="1495850659000" expanded="true" signature="30:104" ph="..." />
-            <marker date="1495850659000" expanded="true" signature="106:148" ph="/**...*/" />
-            <marker date="1495850659000" expanded="true" signature="241:648" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,11 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <marker date="1495852625000" expanded="true" signature="42:84" ph="/**...*/" />
-            <marker date="1495852625000" expanded="true" signature="181:921" ph="{...}" />
-            <marker date="1495852625000" expanded="true" signature="638:707" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,11 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1495597703000" expanded="true" signature="23:65" ph="/**...*/" />
-            <marker date="1495597703000" expanded="true" signature="147:707" ph="{...}" />
-            <marker date="1495597703000" expanded="true" signature="515:621" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,20 +966,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
           <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <marker date="1495768796000" expanded="true" signature="42:84" ph="/**...*/" />
-            <marker date="1495768796000" expanded="true" signature="181:839" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/muhlenxi/FileOutDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="864">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1495764465000" expanded="true" signature="30:83" ph="..." />
+            <marker date="1495764465000" expanded="true" signature="85:127" ph="/**...*/" />
+            <marker date="1495764465000" expanded="true" signature="216:686" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/obj.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/serializable/SerialDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1496217323000" expanded="true" signature="46:88" ph="/**...*/" />
+            <marker date="1496217323000" expanded="true" signature="201:764" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/serializable/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
