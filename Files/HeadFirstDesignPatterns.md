@@ -1,16 +1,16 @@
-## Head First 设计模式
+## Head First Design patterns
 
-*高效学习方法：*
+*Try new things：*
 
-* 慢一点，你理解的越多，需要记得越少。
-* 勤做练习，自己记笔记。
-* 阅读 “There are no Dumb Questions” 部分。
-* 上床睡觉之前不要再看别的书了，或者不要再看其他有难度的东西。
-* 多喝水，而且要多喝水。
-* 大声说出来。
-* 听听你的大脑怎么说。
-* 要有点儿感觉。
-* 设计一些东西。
+* Slow down. The more you understand, the less you have to memorize.
+* Do the exercise. Write you own notes.
+* Read the "There are no Dumb Questions".
+* Make this the last thing your read before bed. Or at least the last challengine thing.
+* Drink water. Lots of it.
+* Talk about it. Out loud.
+* Listen to your brain.
+* Feel something!
+* Design something!
 
 
 **良好的 OO 设计必须具有可复用、可扩充、可维护三个特性。**
@@ -30,27 +30,14 @@
 > 把模式装进脑子里，然后在你的设计和已有的应用中，寻找何处可以使用它们。
 
 
-记住，知道抽象、继承和多态这些概念，并不能立即让你变成好的面向对象设计者。设计大师关心的是建立弹性的设计，可以维护，可以应付改变。
-
 *采用良好的 OO 软件设计原则：*
 
-* 1、找出应用中可能需要变化之处，把它们独立出来，不要和那些不需要变化的代码混在一起。
-* 2、针对接口编程，而不是针对实现编程。
-* 3、多用组合，少用继承。
-* 4、为了交互对象之间的松耦合设计而努力。
-* 5、类应该对扩展开放，对修改关闭。
+*  Indentify the aspects of your application that vary and separate them from what stays the same.
 
+*  Program to an interface, not an implementation.
 
-### 策略模式
+*  Favor composition over inheritance.
 
-> 策略模式定义了算法族，分别封装起来，让它们之间可以互相替换，此模式让算法的变化独立于使用算法的客户。
+*  Strive for loosely coupled designs between objects that interact.
 
-[Strategy pattern demo]()
-
-### 观察者模式
-
-> 观察者模式定义了对象之间的一对多依赖，这样一来，当一个对象改变状态时，它的所有依赖者都会收到通知并自动更新。
-
-### 装饰者模式
-
-> 装饰者模式动态地将责任附加到对象上。若要扩展功能，装饰者提供了比继承更有弹性的替代方案。
+*  Classes should be open for extension, but closed for modification.
